@@ -5,6 +5,15 @@
         Filename: styles.css
 */
 
+html{
+    background-color: #e5cffc;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
-
-
+table{
+    margin: auto;
+    width: 80%;
+}
+table, th, td{
+    border: 2px #4a2574 solid;
+}
