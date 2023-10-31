@@ -6,14 +6,29 @@
 */
 
 html{
-    background-color: #e5cffc;
+    background-color: #9e72c3;
     font-family:Arial, Helvetica, sans-serif;
+    color: #0f0529;
 }
 
 table{
     margin: auto;
+    margin-top: 100px;
     width: 80%;
+    background-color: #e5cffc;
+    box-shadow: 10px 10px 2px 1px rgba(75, 0, 130, .2);
 }
 table, th, td{
     border: 2px #4a2574 solid;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #7338a0;
+    color: white;
+    font-variant: small-caps;
 }
